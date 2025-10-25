@@ -3,7 +3,7 @@
 @endphp
 
 <article
-         class="relative transition duration-300 ease-out bg-white group @if ($isFullyClickable()) hover:shadow-md @endif">
+         class="relative transition duration-300 ease-out group @if ($isFullyClickable()) hover:shadow-md @endif">
     @if (!$slot->isEmpty())
         {{-- Image slot --}}
         {{ $slot }}
